@@ -14,8 +14,8 @@ class Tmux < Formula
   end
 
   patch :p1 do
-    url "https://gist.githubusercontent.com/choppsv1/dd00858d4f7f356ce2cf/raw/75b073e85f3d539ed24907f1615d9e0fa3e303f4/tmux-24.diff"
-    sha256 '66207daba09783c49ea61d9b84f54cb5ce002054eea489fbe401306f6d1b7c56'
+    url "https://gist.githubusercontent.com/JohnMorales/0579990993f6dec19e83/raw/75b073e85f3d539ed24907f1615d9e0fa3e303f4/tmux-24.diff"
+    sha256 "66207daba09783c49ea61d9b84f54cb5ce002054eea489fbe401306f6d1b7c56"
   end
 
   depends_on 'pkg-config' => :build
