@@ -1,6 +1,6 @@
 require "formula"
 
-class Vim < Formula
+class VimTruecolor < Formula
   homepage 'http://www.vim.org/'
   head 'https://bitbucket.org/ZyX_I/vim', :using => :hg, branch: 'local-default'
   # This package tracks debian-unstable: http://packages.debian.org/unstable/vim
